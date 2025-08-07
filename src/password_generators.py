@@ -1,7 +1,8 @@
 import random
 import string
-import nltk
 from abc import ABC, abstractmethod
+
+import nltk
 
 
 class PasswordGenerator(ABC):
