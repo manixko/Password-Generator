@@ -6,6 +6,11 @@ A simple Python application to generate secure and customizable passwords. Suppo
 - **Random Password**: Mix of letters, digits, and symbols.
 - **Memorable Password**: Easy-to-remember passphrases made from English words.
 
+## 🖥️ GUI version
+
+<img src="src/images/app_screenshot.png" alt="Alt Text" width="800"/>
+
+
 ## 🚀 Features
 
 - Object-Oriented design with an abstract base class `PasswordGenerator`.
@@ -14,6 +19,8 @@ A simple Python application to generate secure and customizable passwords. Suppo
   - `RandomPasswordGenerator`
   - `MemorablePasswordGenerator`
 - Interactive CLI for user input.
+- GUI version using Streamlit for a user-friendly experience.
+- Customizable password length and character sets.
 - Handles invalid inputs gracefully.
 
 
@@ -31,7 +38,12 @@ pip install nltk
 
 ## 📦 How to Use
 
-Run the script:
+Run the script for GUI version:
+```bash
+streamlit run src/app.py
+```
+
+Run the script for CLI version:
 ```bash
 python password_generator.py
 ```
@@ -68,3 +80,4 @@ Generates a password using real English words separated by hyphens.
 ## ⚠️ Notes
 
 - Memorable passwords require the **NLTK** corpus words to be downloaded.
+- GUI version requyire the **Streamlit** to be downloaded.
