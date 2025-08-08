@@ -20,13 +20,13 @@ with col1:
     elif password_type == 'Random Password':
         length = st.slider("Length", min_value=8, max_value=50, value=12)
         include_numbers = st.toggle("Include Numbers")
-        include_symbols = st.toggle("Inculde Symbols")
+        include_symbols = st.toggle("Include Symbols")
         password = RandomPasswordGenerator(length=length, include_digits=include_numbers, include_symbols=include_symbols)
     elif password_type == 'Memorable Password':
         num_of_words = st.slider("Number of words", min_value=3, max_value=12, value=5)
         password = MemorablePasswordGenerator(length=num_of_words)
     
-    generate = st.button("Generat Password", type='primary')
+    generate = st.button("Generate Password", type='primary')
 
 
 with col2 :
