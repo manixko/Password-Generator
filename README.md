@@ -28,11 +28,15 @@ A simple Python application to generate secure and customizable passwords. Suppo
 
 - Python 3.6+
 - `nltk` library
+- `streamlit` library
 
 Install the required library with:
 
 ```bash
 pip install nltk
+```
+```bash
+pip install streamlit
 ```
 
 
@@ -45,7 +49,7 @@ streamlit run src/app.py
 
 Run the script for CLI version:
 ```bash
-python password_generator.py
+python src/password_generator.py
 ```
 
 You will be prompted to choose the type of password:
