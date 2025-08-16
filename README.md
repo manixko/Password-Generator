@@ -33,11 +33,9 @@ A simple Python application to generate secure and customizable passwords. Suppo
 Install the required library with:
 
 ```bash
-pip install nltk
+python install -r requirements.txt
 ```
-```bash
-pip install streamlit
-```
+
 
 
 ## 📦 How to Use
